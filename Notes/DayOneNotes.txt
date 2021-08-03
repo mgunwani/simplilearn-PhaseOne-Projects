@@ -1,0 +1,172 @@
+
+
+MEAN Stack Development: Mongo-Express-Angular-Node
+
+MERN Stack Development: Mongo-Express-React-Node
+
+--------------------------------------------------------------------------
+
+MERN Stack Development: Mongo-Express-React-Node
+
+Phase1: Web Development (HTML,CSS,Bootstrap,JavaScript,Agile,GIT)
+Phase2: Client-Side JavaScript Framework (React)
+Phase3: Dynamic Websites (Node, Express)
+Phase4: Testing and Deployment (Jasmine,Karma,Mocha,Chai and Docker)
+
+-----------------------------------------------------------------------
+
+Software Requirements:
+
+	1. Visual Studio Code
+	2. Node and NPM
+	3. Mongodb
+	
+----------------------------------------------------------------------
+
+-- To check Node version:
+
+	node --version
+	
+	https://nodejs.org/en/
+	
+-- To check NPM version:
+
+	npm --version
+	
+-- To check visual sudio code version:
+
+	code --version
+	
+--------------------------------------------------------------------
+
+GIT and GITHUB:
+
+	GIT != GITHUB
+	
+GIT: A SCM (Scource Control Management) Command Line Tool.
+GITHUB: A website or server where all the repositories are managed visually.
+
+	- Centralized SCM
+	- Distributed SCM
+	
+GIT is a distributed Source Control Management or Version Control System.
+
+--------------------------------------------------------------------
+
+1. Initialize GIT local repository:
+	(Repository is initialized only once at the time of configuring VCS)
+
+	git init
+
+2. To check status of tracked/untracked files and folders:
+
+	git status
+	
+3. To track files and folders which are yet to commit or staging:
+
+	git add .
+	git add .txt
+
+4. To check status of tracked/untracked files and folders:
+
+	git status
+
+5. To commit changes:
+
+	git commit -m "First Commit"
+	
+6. To add Remote Origin to add committed files and folder to server repository:
+
+	git remote add origin https://github.com/mgunwani/test-git-project.git
+	
+7. To add committed files and folders to master branch:
+
+	git push -u origin master
+	
+----------------------------------------------------------
+
+Branching and Merging:
+
+	What are branches?
+	How to create new branch?
+	How to checkout branch?
+	How to merge branch to master?
+	How to delete branch (locally or Remotely)?
+	
+-----------------------------------------------------------
+
+1. To see the list of branches:
+
+	git branch
+
+2. To create new branch:
+
+	git branch 'branch-name'
+	
+	git branch MyNewBranch
+	
+3. To checkout to specific branch:
+
+	git checkout 'branch-name'
+	
+	git checkout MyNewBranch
+	
+4. Commands to upload the local to remote:
+
+	a. Add Certain files and folder
+	
+	b. git status
+	
+	c. git add .
+	
+	d. git status
+	
+	e. git commit -m "Commit to MyNewBranch"
+	
+	f. git branch
+	
+	g. git push -u origin MyNewBranch
+	
+--------------------------------------------------------------
+
+Merge MyNewBranch to Master Branch:
+
+1. Checkout to Master Branch:
+
+	git checkout master
+	
+2. Verify and make sure that you are in master branch:
+
+	git branch
+	
+3. Merge MyNewBranch to Master:
+
+	git merge MyNewBranch
+	
+4. To commit the changes to master
+
+	git push -u origin master
+	
+After Merge, This branch is even with master.
+
+----------------------------------------------------------
+
+-- To Delete branch from Local Repository:
+
+	git branch -d MyNewBranch
+	
+-- To Delete branch from Remote Repository:
+
+	git push origin --delete MyNewBranch
+	
+----------------------------------------------------------
+
+-- To clone the git repository:
+	
+	git clone
+	
+-- To pull the changes:
+
+	repository-folder> git pull
+	
+---------------------------------------------------------
