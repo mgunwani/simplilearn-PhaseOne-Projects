@@ -1,0 +1,67 @@
+
+Software Development Life Cycle:
+
+	Analysis -> Design -> Coding -> Testing -> Maintainance
+	
+Agile Methodology:
+
+	Agile is a software development process model where development and testing activities go paralelly and collaboratively.
+	
+Agile Process:
+
+	This is the process where developers and testers work together and i.e, known as Agile Team.
+	
+	Agile Team = Developers + Testers + Product Managers.
+
+	Most of the time in SDLCs, documentations are avoided in Agile Process.
+	Instead of documentations, we need Epic & Story in Agile.
+
+	Epic: Large and High Level Requirement.
+
+	Feature: We have to derived Epic into smaller pieces i.e. Called Features.
+
+	Story: Story is the smallest requirement from where execution gets started.
+	
+-----------------------------------------------
+
+Business Analyst: In waterfall or other model, BA plays an important role to understand the business requirements from end-users or stakeholders.
+
+Product Owner: In agile process, PO is responsible fro creating Epics, Features and stories based upon the requirements given by end-users or stakeholders.
+
+-----------------------------------------------
+
+Roles in Agile Process:
+
+1. Product Owner
+
+	In agile process, PO is responsible fro creating Epics, Features and stories based upon the requirements given by end-users or stakeholders.
+
+2. Scrum Master: 
+
+	SM is an fascilitator for an entire Agile Development Team.
+	SM is not a developer/Tester/PO/Manager.
+	SM is an intermediator between developer/Tester/PO/Manager.
+
+3. Scrum Team: 
+
+	Developers + Testers who work for a goal to deliver the product.
+
+-------------------------------------------------
+
+Product Backlog: 
+
+	This documentation is prepared by PO which contains requirements from customers.
+	
+Sprint Planning Meeting:
+
+	This meeting will be joined by PO + QA + Dev.
+	This meeting is decide the stories needs to achieved in different sprints.
+	Note: Sprint is the iteration in which specific stories needs to complete.
+	
+	Story Points: Estimation given by developers and testers for a story. These story points will be decided by agile team. Theses points can be in fibonacci sequence or custom story points decided by the team.
+	
+	Standard Sprint Time is 2 Weeks. 
+	Duration can vary upto 4 Weeks or More.
+	
+	
+	
