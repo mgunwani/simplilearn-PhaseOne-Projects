@@ -1,0 +1,23 @@
+
+HTML5 Web Storage:
+
+    Web Storage allows you to store some information locally on user's computer.
+    Similiar to Cookies, but it is faster and much better than cookies.
+    However, web storage is no more secure cookies. But it is good practice to store information locally.
+
+    Then information in web storage is not sent to the web server unlike cookies.
+    Web Storage allows you to store data upto 5 MB, whereas, cookies stores small amount of data i.e. 4 KB.
+
+Types of Web Storage:
+
+    Local Storage:
+
+        Local Storage uses localStorage object to store data for your entire website on a permanent basis.
+        Means, The data stored will be available until you do not remove it.
+
+    Session Storage:
+
+        Session Storage uses sessionStorage object to store data on a temporary basis.
+        Means, the data stored wil be available for a single browser window or tab.
+        Once, user closes the browser window or tab, session ends and data gets disappear.
+        
