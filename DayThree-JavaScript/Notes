@@ -1,0 +1,98 @@
+
+JavaScript:
+
+    - A loosely-typed scripting language.
+    - This executes on the browser.
+    - This turns HTML web pages into interactive web pages.
+    - NodeJS provides runtime environment to JavaScript.
+
+NodeJS:
+
+    - NodeJS is JavaScript Server Side Framework.
+    - Allows to work with File System, Database, Network and Endpoints.
+    - NodeJS provides runtime environment to JavaScript.
+
+How to include JavaScript into HTML?
+
+    - Internal/Ebedded JavaScript
+    - External JavaScript
+    - Inline JavaScript
+
+HTML - What content has to be displayed. (Content)
+CSS - How the content has to be displayed. (Presentation)
+JavaScript - What actions needs to be taken on events. (Action)
+
+ctrl + ` : To show/hide the VS terminal
+
+------------------------
+
+JavaScript Data Types:
+
+    - Primitive(Value) Data-Types
+        Number, Boolean, String, Null, Undefined
+    - Non-Primitive(Reference) Data-Types
+        Objects, Arrays, Date
+
+------------------------
+
+JavaScript Operators:
+
+    - Assignment Operators (=)
+    - Comparison Operators (>, <, >=, <=, ==, !=)
+    - Arithmetic Operators (+, -, *, /)
+    - Logical Operators (&&, ||, !)
+    - Ternary/Conditional Operators (?)
+
+-------------------------
+
+Conditions:
+
+    - If..else
+    - If.. else if.. else
+    - Nested If..else
+    - switch case
+
+--------------------------
+
+Functions:
+
+    - Simple Function
+    - Function with Parameters
+    - Function with Parameters and Return Statement
+    - Function Expression
+    - Annonymous Function
+    - Arrow Function
+
+----------------------------
+
+JavaScript Objects:
+
+    1. Object Literal
+    2. Object Constructor
+
+---------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
