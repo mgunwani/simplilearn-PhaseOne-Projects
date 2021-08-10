@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./mystyles.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <h2>Todo List</h2>
+        <input type="text" id="myInput" placeholder="Todo Activity Here.." />
+        <span onclick="addNewElement()" class="addBtn">Add</span>
+    </div>
+
+    <div>
+        <ul id="myUL">
+            <li class="checked">Client Checkins</li>
+            <li>New Client Enrollments</li>
+            <li class="checked">Client Programming</li>
+            <li>Workout at 6 PM</li>
+        </ul>
+    </div>
+    <br />
+    <div>
+        <button type="button" onclick="removeAll()" class="addBtn">Clear Item</button>
+    </div>
+
+    <script src="./myscript.js"></script>
+</body>
+
+</html>

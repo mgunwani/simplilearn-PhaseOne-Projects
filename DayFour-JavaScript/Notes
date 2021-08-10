@@ -1,0 +1,14 @@
+
+JavaScript Objects:
+
+    - Object Literal
+    - Object Constructor
+
+Prototype in JavaScript:
+
+    As, JavaScript is a dynamic or loosely-typed scripting language.
+    We can attach new propertie and methods to an object at any time.
+
+    The Prototype is an object that is associated with every function and
+    object by default in JavaScript. We can add properties and methods directly
+    to them rather than adding them to instance.

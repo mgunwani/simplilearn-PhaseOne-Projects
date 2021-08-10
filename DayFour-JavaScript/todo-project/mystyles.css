@@ -1,0 +1,65 @@
+body {
+    margin: 10px auto;
+    min-width: 250px;
+    max-width: 50%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+ul li:hover {
+    background: #ddd;
+}
+
+ul li.checked {
+    background: teal;
+    color: white;
+    text-decoration: line-through;
+}
+
+.header {
+    background: crimson;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+
+input {
+    margin: 0;
+    border: none;
+    width: 75%;
+    padding: 10px;
+    border-radius: 5;
+    font-size: 16px;
+}
+
+.addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555
+}
+
+.addBtn :hover {
+    background: #bbb;
+}
