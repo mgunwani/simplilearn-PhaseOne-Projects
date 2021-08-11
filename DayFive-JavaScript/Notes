@@ -1,0 +1,36 @@
+
+JavaScript Hoisting
+Strict Mode
+ES6 Features
+
+-----------------------------
+
+JavaScript Hoisting:
+
+In JS, all variables and function declarations are moved or hoisted to the top of their 
+current scope. This is the default behaviour of JavaScript Interpreter whichi is called
+JavaScript Hoisting.
+
+-----------------------------
+
+Strict Mode:
+
+This feature was added or introduced in ECMAScript 5 (ES5).
+This is the sementically order or restricted version of JavaScript that produces errors for mistakes that
+are handled silently otherwise because JavaScript is loosely or dynamic type langugage.
+
+
+----------------------------
+
+ES6 (ECMAScript 6) Features:
+
+ES6 is the sixth and major edition of JavaScript. This version introduces sevral new features such as:
+
+    - Object Oriented Approach
+    - Variable Declaration using var, let and const
+    - Template Literals
+    - Imporoved Loops, 
+    - Arrow Function and many more.
+
+-------------------------------
+
