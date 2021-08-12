@@ -1,0 +1,91 @@
+
+
+NodeJS and NPM (Node Package Manager)
+Asynchronous vs. Synchronous Approach
+Asynchronous Approaches
+
+-------------------------------------------
+
+NodeJS: JavaScript Server Side Framework
+
+	- An open-source server side runtime environment.
+	- Built on Chrome's JavaScript Engine i.e V8 Engine.
+	- Provides an event-driven, non-blocking (async) I/O operations.
+	- Helps in communicating with File System, Network, Database, endpoints and so on.
+	- Provides runtime environment to JavaScript.
+	- comes with NPM (Node Package Manager) for managing third-party packages.
+	
+--------------------------------------------
+
+NPM (Node Packages Manager):
+
+	- A command-line tool that installs, updates and uninstall node packages.
+	- An online repository for open-source packages.
+	- It comes in NodeJS installation.
+	
+Package.json: A JSON file that contains all the meta-information about a project
+along with the list of dependencies a project is using. This file can be generated
+with `npm init` command.
+
+---------------------------------------------
+
+NodeJS Modules:
+
+    1. Core Modules (Built-In Modules)
+    2. User-Defined Modules
+    3. Third-Party Modules (Local Modules and Global Modules)
+
+---------------------------------------------
+
+Core Modules: Built-In modules that comes with NodeJS installation.
+Few are http, os, fs, util, events and so on.
+
+----------------------------------------------
+
+User-Defined Modules: Modules that we create based upon our requirement.
+
+----------------------------------------------
+
+Third-Party Modules: Ready to install and Use.
+
+They can be of type local modules, global modules.
+
+Local MOdules: Installed at Project-Level.
+
+	npm install bootstrap
+	npm install jquery
+	npm install typescript@2.1.1
+	npm install bootstrap jquery
+
+	npm uninstall bootstrap
+	npm update bootstrap
+
+	npm install
+	npm update
+
+Global Modules: Installed at User-Level.
+
+Reasons to Use: 
+
+Packages mendatory to install at OS or User-Level.
+Packages needs to re-use into multiple projects.
+
+	npm install typescript --global
+	npm install typescript -g
+
+-----------------------------------------------
+
+Asynchronous Approaches:
+
+	1. Callback
+	2. Promises
+	3. Async/Await
+
+-----------------------------------------------
+
+axios.get('')
+    .then()     // Resolved
+    .catch()    // Rejected
+
+
+
